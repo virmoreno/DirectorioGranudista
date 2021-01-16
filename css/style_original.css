@@ -127,8 +127,6 @@ font-weight: 900;
   justify-content: center;
 }
 
-
-
 .card-container {
   background-color: white;
   border: solid #f0f5f5 1px;
@@ -137,12 +135,18 @@ font-weight: 900;
   margin: 50px;
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 padding: 50px;
 transition: width 1s, height 1s;
 }
 .card-container:hover{
   width: 350px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+
 }
 
 .card-description h3 {
