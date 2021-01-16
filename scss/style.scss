@@ -1,0 +1,57 @@
+@import 'scss/color';
+@import 'scss/fonts';
+$color-primario:black;
+$bg-color:white;
+
+
+*{
+    width: initial;
+    margin: initial;
+  }
+
+nav, nav a:hover, nav a, .menu, menu li a, menu li a:hover, body, .contacto, .titulo {
+    color:$color-primario
+} 
+
+nav, .menu, .dropdown-menu, .dropdown:hover .dropdown-menu, .title, .contacto
+{
+    background-color:$bg-color;
+}
+
+nav, .menu, .titulo {
+    font-family: $font-family-one;
+
+}
+
+.proyecto, .contacto, body {
+    font-family: $font-family-two;
+}
+
+@mixin flex-row 
+{
+    display:flex;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropdown-menu,
+.dropdown:hover .dropdown-menu,
+.cuadro-busqueda
+ {
+    @include flex-column;
+}
+
+.card-body,
+.card-container
+{
+    @include flex-row;
+}
+
+header {
+    background: white;
+}
