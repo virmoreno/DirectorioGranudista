@@ -93,7 +93,7 @@ body {
 
 /*sección busqueda*/
 .cuadro-busqueda {
- background-image: url(windows.jpg);
+ background-image: url(/home/vir/Escritorio/Coder/Moreno Virginia/images/portada.jpg);
   background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -210,3 +210,16 @@ font-style: italic;
   font-size: 250%;
   padding: 1%;
 }
+
+/*inscripcion local y contacto */
+
+.datos1, .contacto {
+  display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+.form-titles, .contacto{
+  margin: 15px;
+}
+
