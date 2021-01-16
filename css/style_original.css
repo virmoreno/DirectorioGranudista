@@ -18,7 +18,6 @@
 
 }
 
-
 /*Menu superior*/
 
 .menu { 
@@ -93,7 +92,7 @@ body {
 
 /*sección busqueda*/
 .cuadro-busqueda {
- background-image: url(/home/vir/Escritorio/Coder/Moreno Virginia/images/portada.jpg);
+ background-image: url(../images/fotogranel.jpg);
   background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
