@@ -198,7 +198,7 @@ nav {
   font-size: 200%;
   word-spacing: 2px;
   font-family: 'Montserrat', sans-serif; 
-margin: 3%;
+margin: 10%;
 font-style: italic;
 
 }
@@ -208,6 +208,13 @@ font-style: italic;
   font-size: 250%;
   padding: 1%;
 }
+
+.slogan {
+  font-family: 'Bebas Neue', cursive;
+  margin: 10%;
+}
+/*carrousel*/
+
 
 /*inscripcion local y contacto */
 
@@ -233,3 +240,4 @@ footer div {
  margin-bottom: 15px;
 padding: 15px;
 }
+
