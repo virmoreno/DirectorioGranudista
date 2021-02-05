@@ -1,116 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Granudista</title>
-    <!--bootstrap cdn-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <!--icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <!--css-->
-    <link rel="stylesheet" href="css/style_original.css">
-    <!--fonts-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
-        </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Granudista</title>
+  <!--bootstrap cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!--css-->
+  <link rel="stylesheet" href="css/style_original.css">
+  <!--fonts-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
+  </style>
+  <!--favicon-->
+  <link rel="shortcut icon" href="icons/favicon.ico">
 </head>
+
 <body>
 
 
-    <header>
+  <header>
 
-<!--Navbar--> 
-<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Granudista</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="inscripcionlocal.html">Inscripción de locales</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Idea
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="proyecto.html">Proyecto</a></li>
-            <li><a class="dropdown-item" href="sobrenosotros.html">Sobre Nosotros</a></li>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Granudista</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="inscripcionlocal.html">Inscripción de locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Idea
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="proyecto.html">Proyecto</a></li>
+                <li><a class="dropdown-item" href="sobrenosotros.html">Sobre Nosotros</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-<!--empieza sección busqueda-->
-<section class="cuadro-busqueda container-fluid">
-  
-<div class="title">
-<h1 class="title-text" > Buscá tu zona y encontrá quien vende a granel</h1>
-</div>
-<div class="buscador">
-  <input class="form-control" type="text" placeholder="Ingresá tu barrio" aria-label="Dirección del local">
-<button type="button" class="btn btn-light fw-bold" style="margin-top:20px">Buscar</button>
-</div>
+  <!--empieza sección busqueda-->
+  <section class="cuadro-busqueda container-fluid">
+
+    <div class="title">
+      <h1 class="title-text"> Buscá tu zona y encontrá quien vende a granel</h1>
+    </div>
+    <div class="buscador">
+      <input class="form-control" type="text" placeholder="Ingresá tu barrio" aria-label="Dirección del local">
+      <button type="button" class="btn btn-light fw-bold" style="margin-top:20px">Buscar</button>
+    </div>
 
   </section>
-<!--termina sección de busqueda-->
+  <!--termina sección de busqueda-->
 
-<!--empieza sección resultados-->
-<section>
-<div class="card-body">
-  <div class="card-container shadow-sm  bg-white rounded">
-    <div class="card-description">
-    <img class="icon" src="icons/earth.svg" alt="icono tierra">
-    <h3>Propósito: Cuidar el planeta</h3>
-    <p>Queremos que sea más fácil comprar lo que necesitamos sin generar basura ni desperdiciar recursos naturales.</p>
-    <a href="proyecto.html"><button type="button" class="btn btn-dark btn-sm">Leer más</button></a>
-  </div>
-  </div>
-  
-  <div class="card-container shadow-sm  bg-white rounded">
-  <div class="card-description">
-    <img class="icon" src="icons/food.svg" alt="frasco">
-    <h3>A granel + reutilizable = Cero basura</h3>
-    <p>Proponemos rechazar el empaque descartable y comprar en tiendas a granel con recipientes reutilizables.</p>
-  </div>
-  </div>
-  
-  <div class="card-container shadow-sm  bg-white rounded">
-  <div class="card-description">
-    <img class="icon" src="icons/online.svg" alt="icono tierra">
-    <h3>Buscamos Granudistas</h3>
-    <p>Estamos armando un Directorio online de tiendas a granel para que sea fácil encontrarlos.</p>
-    <a href="inscripcionlocal.html"><button type="button" class="btn btn-dark btn-sm">Registrar mi local comercial</button></a>
-  </div>
-  </div>
-</section>
-<!--termina sección de resultados-->
-
-    </main>
-    
-    <!--comienza footer-->
-    <footer class="bg-dark text-white">
-      <div class="container">
-       <a href="https://www.instagram.com/granudista/"><i class="bi bi-instagram">Granudista</i></a> 
+  <!--empieza sección resultados-->
+  <section>
+    <div class="card-body">
+      <div class="card-container shadow-sm  bg-white rounded">
+        <div class="card-description">
+          <img class="icon" src="icons/earth.svg" alt="icono tierra">
+          <h3>Propósito: Cuidar el planeta</h3>
+          <p>Queremos que sea más fácil comprar lo que necesitamos sin generar basura ni desperdiciar recursos
+            naturales.</p>
+          <a href="proyecto.html"><button type="button" class="btn btn-dark btn-sm">Leer más</button></a>
         </div>
-        <p>Made by Vir Moreno</p>
       </div>
-   
-    </footer>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <div class="card-container shadow-sm  bg-white rounded">
+        <div class="card-description">
+          <img class="icon" src="icons/food.svg" alt="frasco">
+          <h3>A granel + reutilizable = Cero basura</h3>
+          <p>Proponemos rechazar el empaque descartable y comprar en tiendas a granel con recipientes reutilizables.</p>
+        </div>
+      </div>
+
+      <div class="card-container shadow-sm  bg-white rounded">
+        <div class="card-description">
+          <img class="icon" src="icons/online.svg" alt="icono tierra">
+          <h3>Buscamos Granudistas</h3>
+          <p>Estamos armando un Directorio online de tiendas a granel para que sea fácil encontrarlos.</p>
+          <a href="inscripcionlocal.html"><button type="button" class="btn btn-dark btn-sm">Registrar mi local
+              comercial</button></a>
+        </div>
+      </div>
+  </section>
+  <!--termina sección de resultados-->
+
+  </main>
+
+  <!--comienza footer-->
+  <footer class="bg-dark text-white">
+    <div class="container">
+      <a href="https://www.instagram.com/granudista/"><i class="bi bi-instagram">Granudista</i></a>
+    </div>
+    <p>Made by Vir Moreno</p>
+    </div>
+
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
