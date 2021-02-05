@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="inscripcionlocal.html">Inscripción de locales</a>
@@ -49,7 +49,7 @@
     </div>
   </div>
 </nav>
-
+</header>
 
 <!--empieza sección busqueda-->
 <section class="cuadro-busqueda container-fluid">
@@ -58,23 +58,22 @@
 <h1 class="title-text" > Buscá tu zona y encontrá quien vende a granel</h1>
 </div>
 <div class="buscador">
-<form  action=""></form>
-<input type="text" >
-<button type="button" class="btn btn-dark">Buscar</button>
+  <input class="form-control" type="text" placeholder="Ingresá tu barrio" aria-label="Dirección del local">
+<button type="button" class="btn btn-dark" style="margin-top:20px">Buscar</button>
 </div>
 
   </section>
 <!--termina sección de busqueda-->
 
 <!--empieza sección resultados-->
-
+<section>
 <div class="card-body">
   <div class="card-container shadow-sm  bg-white rounded">
     <div class="card-description">
     <img class="icon" src="icons/earth.svg" alt="icono tierra">
     <h3>Propósito: Cuidar el planeta</h3>
     <p>Queremos que sea más fácil comprar lo que necesitamos sin generar basura ni desperdiciar recursos naturales.</p>
-    <a href="proyecto.html"><button type="button" class="btn btn-primary btn-sm">Leer más</button></a>
+    <a href="proyecto.html"><button type="button" class="btn btn-dark btn-sm">Leer más</button></a>
   </div>
   </div>
   
@@ -91,10 +90,10 @@
     <img class="icon" src="icons/online.svg" alt="icono tierra">
     <h3>Buscamos Granudistas</h3>
     <p>Estamos armando un Directorio online de tiendas a granel para que sea fácil encontrarlos.</p>
-    <a href="inscripcionlocal.html"><button type="button" class="btn btn-primary btn-sm">Registrar mi local comercial</button></a>
+    <a href="inscripcionlocal.html"><button type="button" class="btn btn-dark btn-sm">Registrar mi local comercial</button></a>
   </div>
   </div>
-
+</section>
 <!--termina sección de resultados-->
 
     </main>
@@ -103,14 +102,8 @@
     <footer>
    
     </footer>
-
-<!--bootstrap-->   
-<script type="module">
-        import { Toast } from 'bootstrap.esm.min.js'
-      
-        Array.from(document.querySelectorAll('.toast'))
-          .forEach(toastNode => new Toast(toastNode))
-      </script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->

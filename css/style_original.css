@@ -99,7 +99,7 @@ justify-content: space-around;
 }
 
 .title-text{
-font-size: 4rem;
+font-size: 3rem;
 color: white;
 font-weight: 900;
 
@@ -109,6 +109,8 @@ font-weight: 900;
   padding: 25px;
   transition: 3s linear all;
 }
+
+
 
 .cuadro-busqueda{
   display: flex;
@@ -175,14 +177,18 @@ nav {
   text-align: center;
   font-weight: bold;
 }
-.datos1{
-  padding: 10px;
+
+.contact-form, .form-inscripcion{
+  margin:50px;
 }
-.datos1 input{ 
-  width: 40%;
+
+.form-check{
+  margin: 15px;
+  display: table;
 }
-.datos2 {
-  padding: 25px;
+
+.form-floating,.col-12,.upload,h3 {
+  margin-top: 30px;
 }
 
 /*pag proyecto*/
