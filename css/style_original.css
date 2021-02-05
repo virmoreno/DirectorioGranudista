@@ -1,21 +1,17 @@
-*{
-  width: initial;
-  margin: initial;
-}
 
-/*Mobile*/
-@media only screen and (max-width:480px)
-{
-  body {
-    width: 100%;   
-  }
-  main .card-body{
+@media only screen and (max-width:768px) {
+  .card-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+   align-items: center;
   }
-
+}
+@media only screen and (min-width:769px){
+  .card-body {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 /*Menu superior*/
@@ -90,7 +86,7 @@ body {
     width: 100%;
 }
 
-/*sección busqueda*/
+/*index - sección busqueda*/
 .cuadro-busqueda {
  background-image: url(../images/fotogranel.jpg);
   background-repeat: no-repeat;
@@ -118,13 +114,9 @@ font-weight: 900;
   display: flex;
   justify-content: space-evenly;
 }
-/*seccion resultados*/
 
-.card-body{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-}
+/* index - seccion resultados*/
+
 
 .card-container {
   background-color: white;
@@ -134,7 +126,7 @@ font-weight: 900;
   margin: 50px;
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 padding: 50px;
 transition: width 1s, height 1s;
 }
